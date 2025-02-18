@@ -1,0 +1,19 @@
+{
+    "name": "Databricks CLI",
+    "id": "databricks-cli",
+    "version": "1.0.0",
+    "description": "Installing the databricks-cli into the container",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "v0.241.0"
+            ],
+            "default": "main",
+            "description": "CLI version to install"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

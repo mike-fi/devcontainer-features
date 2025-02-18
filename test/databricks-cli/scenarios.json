@@ -1,9 +1,8 @@
 {
-    "hello": {
+    "test_version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "hello": {
-                "greeting": "hello"
+            "databricks": {
             }
         }
     }
