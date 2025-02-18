@@ -1,15 +1,13 @@
 
-# Databricks CLI devcontainer feature
+# Databricks CLI (databricks-cli)
 
-Installing the databricks-cli into your devcontainer as a feature, deminishing the need to write Dockerfiles or bash scripts.
+Installing the databricks-cli into the container
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/mike-fi/devcontainer-features/databricks-cli:1": {
-        "version": "v0.241.0"
-    }
+    "ghcr.io/mike-fi/devcontainer-features/databricks-cli:1": {}
 }
 ```
 
@@ -17,4 +15,10 @@ Installing the databricks-cli into your devcontainer as a feature, deminishing t
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select cli version | string | main |
+| version | CLI version to install | string | main |
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/mike-fi/devcontainer-features/blob/main/src/databricks-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
