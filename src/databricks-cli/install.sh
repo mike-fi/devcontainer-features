@@ -5,6 +5,8 @@ echo "Activating feature 'databricks-cli'"
 
 VERSION=${VERSION:-"main"}
 
+
+# arch = "$(uname -m)"
 # case $arch in
 #     x86_64) arch="amd64";;
 #     aarch64 | arm8*) arch="arm64";;
@@ -37,5 +39,3 @@ curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/$VERSION/insta
 
 echo "Databricks CLI installed successfully"
 chmod +x /usr/local/bin/databricks
-arch = "$(uname -m)"
-
