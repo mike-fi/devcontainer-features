@@ -1,4 +1,9 @@
 #!/bin/sh
+
+# DISCLAIMER
+# This script is licensed under the MIT License
+# The software installed by this script is subject to its own license terms. For more information see NOTICE.md and the documentation provided by the software vendor.
+
 set -e
 
 echo "Activating feature 'databricks-cli'"
