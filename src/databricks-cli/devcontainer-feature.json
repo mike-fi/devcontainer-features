@@ -1,7 +1,7 @@
 {
     "name": "Databricks CLI",
     "id": "databricks-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Installing the databricks-cli into the container",
     "options": {
         "version": {
