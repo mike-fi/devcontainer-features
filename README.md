@@ -12,7 +12,7 @@ Adding `databricks-cli` to the devcontainer will install the databricks-cli, def
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/devcontainers/features/common-utils:1": {},
+        "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/mike-fi/devcontainer-features/databricks-cli:1": {
             "version": "v0.241.0"
         }
