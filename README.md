@@ -6,7 +6,7 @@
 
 ### `databricks-cli`
 
-Adding `databricks-cli` to the devcontainer will install the databricks-cli, defaulting to main, with the given version
+Adding `databricks-cli` to the devcontainer installs the Databricks CLI. The feature defaults to `main`, which resolves to the latest GitHub release before downloading the matching Linux binary for the container architecture and verifying its checksum.
 
 ```jsonc
 {
@@ -14,9 +14,9 @@ Adding `databricks-cli` to the devcontainer will install the databricks-cli, def
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/mike-fi/devcontainer-features/databricks-cli:1": {
-            "version": "v0.241.0"
+            "version": "v0.294.0"
         }
     }
 }
 ```
-> __NOTE__: This feature currently requires curl to be installed, which is part of the common-utils feature. I'm working on a solution to make it installable cross-platform.
+> __NOTE__: This feature installs the Linux `amd64` and `arm64` release archives and verifies the published SHA-256 checksum before copying the binary into `/usr/local/bin`.

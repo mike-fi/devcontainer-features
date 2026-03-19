@@ -1,16 +1,16 @@
 {
     "name": "Databricks CLI",
     "id": "databricks-cli",
-    "version": "1.0.2",
-    "description": "Installing the databricks-cli into the container",
+    "version": "1.1.0",
+    "description": "Installing a specific version of databricks-cli into the container",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
-                "v0.241.0"
+                "v0.294.0"
             ],
             "default": "main",
-            "description": "CLI version to install"
+            "description": "Databricks CLI version to install. Use \"main\" to resolve the latest GitHub release."
         }
     },
     "installsAfter": [
