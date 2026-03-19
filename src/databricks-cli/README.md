@@ -1,7 +1,7 @@
 
 # Databricks CLI devcontainer feature
 
-Installing the Databricks CLI into your devcontainer as a feature, diminishing the need to write Dockerfiles or bash scripts.
+Installing the Databricks CLI into your devcontainer as a feature, diminishing the need to write Dockerfiles or bash scripts. This feature depends on `ghcr.io/devcontainers/features/common-utils:2`.
 
 ## Example Usage
 
