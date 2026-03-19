@@ -2,7 +2,7 @@
     "test_version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "databricks": {
+            "databricks-cli": {
             }
         }
     }
