@@ -87,7 +87,7 @@ version_number="${resolved_version#v}"
 arch="$(detect_arch)"
 
 archive_name="databricks_cli_${version_number}_linux_${arch}.tar.gz"
-checksum_name="databricks_cli_${version_number}_SHA256SUMS_unix"
+checksum_name="databricks_cli_${version_number}_SHA256SUMS"
 release_base_url="https://github.com/databricks/cli/releases/download/${resolved_version}"
 
 echo "Installing Databricks CLI version: ${resolved_version} for linux/${arch}"
