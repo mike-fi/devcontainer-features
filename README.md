@@ -14,7 +14,7 @@ Adding `databricks-cli` to the devcontainer installs the Databricks CLI. The fea
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/mike-fi/devcontainer-features/databricks-cli:1": {
-            "version": "v0.294.0"
+            "version": "v1.0.0"
         }
     }
 }

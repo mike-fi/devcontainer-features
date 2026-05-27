@@ -8,7 +8,7 @@ Installing the Databricks CLI into your devcontainer as a feature, diminishing t
 ```json
 "features": {
     "ghcr.io/mike-fi/devcontainer-features/databricks-cli:1": {
-        "version": "v0.294.0"
+        "version": "v1.0.0"
     }
 }
 ```
